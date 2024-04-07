@@ -1,0 +1,11 @@
+Public Class Form1 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load 
+        ListBox1.SelectionMode = SelectionMode.MultiSimple 
+        ListBox1.Items.Add("C") 
+        ListBox1.Items.Add("C++") 
+        ListBox1.Items.Add("JAVA") 
+        ListBox1.Items.Add(".NET") 
+        ListBox1.Items.Add("PHP") 
+        ListBox1.Items.Add("Python") 
+    End Sub 
+End Class 
